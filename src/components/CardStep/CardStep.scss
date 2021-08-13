@@ -1,0 +1,20 @@
+@import "./../../sass/variables.scss";
+
+.card-step-container {
+  background-color: $deep-blue;
+  border-radius: $light-radius;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  .card-step-img {
+    width: 100%;
+  }
+
+  .step-timestamp {
+    padding: 10px 10px;
+    color: $white-grey;
+    text-align: left;
+  }
+}
