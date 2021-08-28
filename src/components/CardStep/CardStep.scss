@@ -1,20 +1,37 @@
 @import "./../../sass/variables.scss";
 
 .card-step-container {
-  background-color: $deep-blue;
+  background-color: $white;
   border-radius: $light-radius;
+  border: 1px solid $white-grey;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  align-items: flex-start;
+  margin: 20px 0px;
+  position: relative;
+  padding: 15px;
 
   .card-step-img {
     width: 100%;
+    margin-bottom: 3px;
   }
 
-  .step-timestamp {
-    padding: 10px 10px;
-    color: $white-grey;
+  .step-desc {
     text-align: left;
+    color: $medium-green;
+    margin: 15px 0px;
+  }
+
+  .step-infos {
+    color: $light-green;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  h1 {
+    margin: 5px 0px;
+    color: $medium-green;
   }
 }
